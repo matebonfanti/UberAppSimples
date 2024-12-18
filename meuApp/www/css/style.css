@@ -63,11 +63,12 @@ body {
 
 h1 {
     font-size:24px;
-    font-weight:normal;
+    font-weight: bold;
     margin:0px;
     overflow:visible;
-    padding:0px;
+    padding-bottom:20px;
     text-align:center;
+    width: auto;
 }
 
 .event {
@@ -107,4 +108,59 @@ h1 {
     body {
         background-image:linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
     }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 22px);
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.tipoGanhos{
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 5px #dbdbdb;
+    
+    border-style: hidden;
+    border-radius: 5px;
+    
+    
 }
